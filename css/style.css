@@ -92,5 +92,31 @@ html, body {
   align-items: center;
   flex-direction: column;
   padding-top: .4rem; }
+  .form .pas, .form .tel {
+    margin-bottom: .35rem;
+    border-bottom: 1px solid #838987;
+    width: 85%;
+    height: .35rem;
+    padding: 0 .1rem;
+    position: relative; }
+    .form .pas input::-webkit-input-placeholder, .form .pas textarea::-webkit-input-placeholder, .form .tel input::-webkit-input-placeholder, .form .tel textarea::-webkit-input-placeholder {
+      color: #a8a8a8; }
+    .form .pas img, .form .tel img {
+      position: absolute;
+      height: .25rem; }
+    .form .pas input, .form .tel input {
+      border: 0;
+      padding-left: .3rem;
+      width: 90%;
+      height: .25rem; }
+  .form .btn {
+    width: 85%; }
+    .form .btn button {
+      width: 100%;
+      background: #2fba77;
+      height: .35rem;
+      border: 0;
+      border-radius: .05rem;
+      color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

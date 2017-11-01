@@ -117,4 +117,36 @@ html,body{
     @include flex();
     flex-direction:column;
     padding-top: .4rem;
+    .pas,.tel{
+        margin-bottom: .35rem;
+        border-bottom: 1px solid #838987;
+        width: 85%;
+        height: .35rem;  
+        padding: 0 .1rem;
+        position: relative;      
+        input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+            color: #a8a8a8;
+        }
+        img{
+            position: absolute;
+            height: .25rem;
+        }
+        input{
+            border: 0;
+            padding-left: .3rem;
+            width: 90%;
+            height: .25rem;
+        }
+    }
+    .btn{
+        width: 85%;
+        button{
+            width: 100%;
+            background: #2fba77;
+            height: .35rem;
+            border: 0;
+            border-radius: .05rem;
+            color: #fff;
+        }
+    }
 }
