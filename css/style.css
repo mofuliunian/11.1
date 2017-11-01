@@ -42,4 +42,55 @@ html, body {
   flex-direction: column;
   overflow: hidden; }
 
+.header {
+  background: #393a3f;
+  color: #fff;
+  height: .5rem;
+  font-size: .18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between; }
+  .header .left, .header .right {
+    flex: 1;
+    text-align: center; }
+  .header .center {
+    flex: 6;
+    padding-left: .1rem; }
+  .header .left {
+    border-right: 2px solid #35363b; }
+
+.main {
+  background: #818d9b;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.box {
+  width: 90%;
+  background: #fff;
+  border-radius: .1rem;
+  height: 80%; }
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: .3rem; }
+  .top img {
+    width: 40%; }
+  .top h4 {
+    font-size: .18rem;
+    color: #45464b;
+    line-height: 2; }
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: .4rem; }
+
 /*# sourceMappingURL=style.css.map */
